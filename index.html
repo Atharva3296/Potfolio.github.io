@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Shedge - Mern Stack Developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href=" shedgeresume.pdf" download="Atharva_Shedge_Resume" class="cta-button">
+            <button id="resume-btn" class="resume-btn">Resume</button>
+            </a>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Atharva Shedge</h1>
+                <h2>Mern - Stack Developer</h2>
+                <p>Design and build responsive websites </p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>A passionate and motivated fresher who has attended college lectures on C++ programming and completed online 
+                          lectures on frontend development from an external source. Additionally, I gained basic knowledge from an Android 
+                          Developer Virtual Internship. Currently, I am developing my skills in Java with Data Structures and Algorithms (DSA). 
+                          Eager to further develop my skills and build a career in software development.</p>
+                        
+                    </div>
+                    <div class="about-image">
+                        <img src="myphoto.jpg" alt="John Doe" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill"><i class="fab fa-react"></i> React</div>
+                    <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill"><i class="fas fa-mobile-alt"></i> Responsive Design</div>
+                    <div class="skill"><i class="fas fa-universal-access"></i> Web Accessibility</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <img src="SIP Calculator.png" alt="Project 1" class="project-image">
+                        <h3>SIP Calculator</h3>
+                        <p>A tool to calculate the future value of SIP (Systematic Investment Plan) investments, featuring user-friendly input forms and detailed result visualization.</p>
+                        <div class="project-links">
+                            <a href="https://atharva3296.github.io/bhai.github.io/" class="project-link">View Project</a>
+                            <a href="https://github.com/Atharva3296/bhai.github.io.git" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="Quiz.png" alt="Project 2" class="project-image">
+                        <h3>Quiz website</h3>
+                        <p>A quiz website featuring 11 questions with AI-based feedback for correct and incorrect answers.</p>
+                        <div class="project-links">
+                            <a href="https://atharva3296.github.io/shedge3296.github.io/" class="project-link">View Project</a>
+                            <a href="https://github.com/Atharva3296/shedge3296.github.io.git" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="agecalc.png" alt="Project 3" class="project-image">
+                        <h3>Age Calculator</h3>
+                        <p>A tool to calculate a person's age based on their date of birth, featuring a simple and user-friendly interface.</p>
+                        <div class="project-links">
+                            <a href="https://atharva3296.github.io/Bhaiya3296.github.io/" class="project-link">View Project</a>
+                            <a href="https://github.com/Atharva3296/Bhaiya3296.github.io.git" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="section-title">Testimonials</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial">
+                        <p>"Atharva is an exceptional developer. His attention to detail and problem-solving skills are outstanding."</p>
+                        <cite>- Jane Smith, Project Manager</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Working with Atharva was a pleasure. He delivered our project on time and exceeded our expectations."</p>
+                        <cite>- Mike Johnson, CEO</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Atharva's expertise in web development helped us create a beautiful and functional website. Highly recommended!"</p>
+                        <cite>- Sarah Lee, Marketing Director</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Atharva Shedge. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/atharva-shedge-883784285/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Atharva3296" target="_blank"><i class="fab fa-github"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
