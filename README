@@ -1,0 +1,33 @@
+# Atharva Shedge - Portfolio
+
+This is the personal portfolio website of Atharva Shedge, a Mern Stack Developer. The website showcases my skills, projects, and provides a way to get in touch with me.
+
+
+
+## Demo
+
+You can view the live demo of the website [(https://atharva3296.github.io/Potfolio.github.io/)].
+
+## Features
+
+- Responsive design
+- Smooth scrolling
+- Mobile-friendly navigation
+- Project showcase
+- Contact form
+- Downloadable resume
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+
+## Setup
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
