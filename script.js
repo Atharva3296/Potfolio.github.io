@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
 
-    // Toggle mobile menu
+   
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
         
-        // Animate links
+        
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Burger animation
+        
         burger.classList.toggle('toggle');
     });
 
-    // Smooth scrolling
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Simple form submission (you'll need to implement server-side handling)
+    
     const form = document.getElementById('contact-form');
     form.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
     });
 
-    // Testimonial slider
+    
     const testimonials = document.querySelector('.testimonials-slider');
     let isDown = false;
     let startX;
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         testimonials.scrollLeft = scrollLeft - walk;
     });
 
-    // Open resume in a new tab
+   
     const resumeBtn = document.getElementById('resume-btn');
     resumeBtn.addEventListener('click', (e) => {
         e.preventDefault();
